@@ -8,11 +8,27 @@ html {
   background-size: cover;
 }
 
-h1 {
+div{
   background: rgba(76,103,87,.8);
+  padding:10px;
+  margin:350px auto 0;
+  text-align: center;
+  width:400px;
+}
+
+h1 {
   color:#fff;
   font:bold 24px "Helvetica",arial, sans-serif;
-  margin:350px 0 0 0;
-  padding:5px 0;
-  text-align: center;
+  margin:0;
 }
+
+a {
+  color:#9fb7a0;
+  font:normal 11px "Helvetica",arial, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+
+}
+a:hover {
+    color:#b8d0b9;
+  }
