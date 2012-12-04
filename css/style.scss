@@ -1,5 +1,7 @@
 /* Style.css */
 
+@import "reset";
+
 html {
   background: url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -9,6 +11,7 @@ html {
 }
 
 div{
+  background: rgb(76,103,87);
   background: rgba(76,103,87,.8);
   padding:10px;
   margin:350px auto 0;
