@@ -30,8 +30,6 @@ a {
   font:normal 11px "Helvetica",arial, sans-serif;
   font-style: italic;
   text-decoration: none;
-
-}
-a:hover {
+  &:hover {
     color:#b8d0b9;
   }
