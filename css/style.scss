@@ -10,13 +10,16 @@ html {
   background-size: cover;
 }
 
-div{
-  background: rgb(76,103,87);
-  background: rgba(76,103,87,.8);
+body {
+  text-align: center;
+}
+
+div {
+  background: rgba(76, 103, 87, .8);
   padding:10px;
   margin:350px auto 0;
   text-align: center;
-  width:400px;
+  width:420px;
 }
 
 h1 {
@@ -34,3 +37,4 @@ a {
     color:#b8d0b9;
   }
 }
+

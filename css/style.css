@@ -53,13 +53,15 @@ html {
   -o-background-size: cover;
   background-size: cover; }
 
+body {
+  text-align: center; }
+
 div {
-  background: #4c6757;
   background: rgba(76, 103, 87, 0.8);
   padding: 10px;
   margin: 350px auto 0;
   text-align: center;
-  width: 400px; }
+  width: 420px; }
 
 h1 {
   color: #fff;
