@@ -56,22 +56,29 @@ html {
 body {
   text-align: center; }
 
-div {
-  background: rgba(76, 103, 87, 0.8);
-  padding: 10px;
-  margin: 350px auto 0;
-  text-align: center;
-  width: 420px; }
-
-h1 {
-  color: #fff;
-  font: bold 24px "Helvetica",arial, sans-serif;
-  margin: 0; }
-
-a {
-  color: #9fb7a0;
-  font: normal 11px "Helvetica",arial, sans-serif;
-  font-style: italic;
-  text-decoration: none; }
-  a:hover {
-    color: #b8d0b9; }
+#title {
+  background: url(../images/title.png) no-repeat;
+  height: 154px;
+  margin: 250px auto 0;
+  width: 337px; }
+  #title h1, #title h2, #title h3 {
+    overflow: hidden;
+    text-indent: -9999em; }
+  #title a {
+    background: url(../images/sprite.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 160px; }
+  #title a#stay {
+    background-position: 0 0;
+    margin-top: 125px; }
+    #title a#stay:hover {
+      background-position: -160px 0; }
+  #title a#rsvp {
+    background-position: 0 -30px;
+    margin-top: 10px; }
+    #title a#rsvp:hover {
+      background-position: -160px -30px; }
