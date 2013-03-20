@@ -1,0 +1,11 @@
+ErrorDocument 404 /404.html
+
+#Options +FollowSymLinks
+RewriteEngine On
+
+#Rewrite Portfolio URLs & Redirect root to portfolio
+RewriteRule ^(.*)/$ /$1.php
+
+#Trailing Slash Fix
+RewriteCond %{REQUEST_URI} !(\.|/$)
+RewriteRule ([^.]+)$ /$1/ [R,L]
