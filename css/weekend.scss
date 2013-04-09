@@ -12,9 +12,24 @@
     font-style: normal;
 }
 
+
 html{
   marging:0;
   padding:0;
+
+  div#header {
+    width: 100%;
+    padding:5px 0;
+    background-color: #22211d;
+
+    p {
+      Color:#666;
+      margin:0 auto;
+      font:bold 14px NewsGothicBT-BoldCondensed, helvetica, arial, sans-serif;
+      text-transform: uppercase;
+      width:200px;
+    }
+  }
 
   img#hero {
     width:100%;

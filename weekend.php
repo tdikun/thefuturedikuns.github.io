@@ -34,7 +34,7 @@
   //var customPath = "/themes/fonts";
   </script>
   <script type="text/javascript" src="http://www.thefuturedikuns.com/js/MyFontsWebfontsKit.js"></script>
-  <link href="http://www.thefuturedikuns.com/css/weekend.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/weekend.css" media="screen" rel="stylesheet" type="text/css">
   <script src="http://www.thefuturedikuns.com/js/jquery-1.8.3.min.js"></script>
   <!--[if lte ie 8]>
     <style type="text/css">
@@ -44,6 +44,9 @@
 
 </head>
 <body>
+  <div id="header">
+    <p>Scroll down for details</p>
+  </div>
   <img src="http://www.thefuturedikuns.com/images/hero.jpg" id="hero" />
   <div id="wrap">
     <h1>Weekend Details</h1>
